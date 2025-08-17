@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" 
+        crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <style>
+    .container-fluid {
+      background-color: #61595d;
+      height: 100px;
+      font-family: Georgia, 'Times New Roman', Times, serif ;
+      font-size: 1.7em solid;
+    }
+    main {
+      background-color: #d74a80;
+      font-style: italic;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <img src="cake2.svg" height="50px" alt="Bakery logo">
+        <a class="navbar-brand" href="">Ishika's Bakery</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Cakes & Cookies" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">YUM!!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">CAKES MENU (FLAVOURS)</h1>
+          <p class="lead text-body-secondary">
+           Beautifully crafted cakes for every occasion. Explore our delicious range of cakes, from classic chocolate to exotic fruit flavors. Each cake is made with love and the finest ingredients to ensure a delightful experience.
+          </p>
+          <p>
+            <a href="/bootstrapweb.html" class="btn btn-primary my-2">Cakes</a>
+            <a href="cookiesbs.html" class="btn btn-secondary my-2">Cookies</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Album Section -->
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+          <!-- Card 1 -->
+          <div class="col">
+  <div class="card shadow-sm">
+    <!-- Real Image -->
+    <img src="choco.jpg" class="card-img-top" alt="Chocolate Cake">
+
+    <!-- Card Body -->
+    <div class="card-body">
+      <p class="card-text">
+        Delicious rich chocolate cake with creamy frosting.
+      </p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary">View Details</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary">Order Now!</button>
+        </div>
+        <small class="text-body-secondary">9 mins</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+          <!-- Repeat same structure for all other cards -->
+          <!-- Card 2 -->
+       <div class="col">
+  <div class="card shadow-sm">
+    <!-- Real Image -->
+    <img src="fresh-strawberry-cake.jpg" class="card-img-top" alt="Chocolate Cake">
+
+    <!-- Card Body -->
+    <div class="card-body">
+      <p class="card-text">
+        A delightful strawberry cake topped with fresh strawberries and whipped cream.
+      </p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary">View Details</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary">Order Now</button>
+        </div>
+        <small class="text-body-secondary">9 mins</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+          <!-- Card 3 -->
+           <div class="col">
+  <div class="card shadow-sm">
+    <!-- Real Image -->
+    <img src="cheesecake1.jpg" class="card-img-top" alt="Chocolate Cake">
+
+    <!-- Card Body -->
+    <div class="card-body">
+      <p class="card-text">
+        Creamy cheesecake with a buttery graham cracker crust, topped with a berry compote.
+      </p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary">View Details</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary">Order Now</button>
+        </div>
+        <small class="text-body-secondary">9 mins</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+            <!-- Card 4 -->
+             <div class="col">
+  <div class="card shadow-sm">
+    <!-- Real Image -->
+    <img src="cheesecake2.jpg" class="card-img-top" alt="Chocolate Cake">
+
+    <!-- Card Body -->
+    <div class="card-body">
+      <p class="card-text">
+        A rich and creamy cheesecake with a hint of lemon, perfect for any occasion.
+      </p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary">View Details</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary">Order Now</button>
+        </div>
+        <small class="text-body-secondary">9 mins</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+          <!-- ... (you can keep copying the same structure for all remaining cards) -->
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+          integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
+          crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" 
+          integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" 
+          crossorigin="anonymous"></script>
+</body>
+</html>
